@@ -52,6 +52,15 @@ fun DependencyHandlerScope.lifecycle(){
     "implementation"(Dependencies.lifecycle_livedata)
     "implementation"(Dependencies.lifecycle_viewmodel)
 }
+fun DependencyHandlerScope.compose(){
+    "implementation"(Dependencies.compose_ui)
+    "implementation"(Dependencies.compose_tooling)
+    "implementation"(Dependencies.compose_foundation)
+    "implementation"(Dependencies.compose_material)
+    "implementation"(Dependencies.compose_material_icons_core)
+    "implementation"(Dependencies.compose_material_icons_extended)
+    "implementation"(Dependencies.compose_livedata)
+}
 fun DependencyHandlerScope.networking(){
     "implementation"(Dependencies.retrofit)
     "implementation"(Dependencies.converter_gson)
@@ -89,4 +98,7 @@ fun DependencyHandlerScope.mockkTest(){
 }
 fun DependencyHandlerScope.roomTest(){
     "testImplementation"(Dependencies.room_testing)
+}
+fun DependencyHandlerScope.composeTest(){
+    "androidTestImplementation"(Dependencies.compose_ui_test)
 }
