@@ -13,6 +13,16 @@ object Dependencies {
     const val material="com.google.android.material:material:${Version.material_version}"
     const val view_binding="androidx.databinding:viewbinding:${Version.view_binding_version}"
     const val constraint_layout="androidx.constraintlayout:constraintlayout:${Version.constraint_layout_version}"
+
+    const val compose_ui="androidx.compose.ui:ui:${Version.compose_version}"
+    const val compose_tooling="androidx.compose.ui:ui-tooling:${Version.compose_version}"
+    const val compose_foundation="androidx.compose.foundation:foundation:${Version.compose_version}"
+    const val compose_material="androidx.compose.material:material:${Version.compose_version}"
+    const val compose_material_icons_core="androidx.compose.material:material-icons-core:${Version.compose_version}"
+    const val compose_material_icons_extended="androidx.compose.material:material-icons-extended:${Version.compose_version}"
+    const val compose_livedata="androidx.compose.runtime:runtime-livedata:${Version.compose_version}"
+    const val compose_ui_test="androidx.compose.ui:ui-test-junit4:${Version.compose_version}"
+
     const val navigation_fragment="androidx.navigation:navigation-fragment-ktx:${Version.navigation_version}"
     const val navigation_ui="androidx.navigation:navigation-ui-ktx:${Version.navigation_version}"
     const val lifecycle_livedata="androidx.lifecycle:lifecycle-livedata-ktx:${Version.lifecycle_version}"
