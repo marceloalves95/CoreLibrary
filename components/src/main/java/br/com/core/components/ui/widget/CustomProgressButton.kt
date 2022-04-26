@@ -1,11 +1,11 @@
-package br.com.corelibrary.components.views
+package br.com.core.components.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import br.com.corelibrary.R
-import br.com.corelibrary.components.extensions.getLayoutContainer
+import br.com.core.components.extensions.getLayoutContainer
 import br.com.corelibrary.databinding.ProgressButtonBinding
 
 /**
@@ -23,7 +23,7 @@ class CustomProgressButton @JvmOverloads constructor(
     private var loadingTitle:String? = null
     private val binding = ProgressButtonBinding.inflate(getLayoutContainer(), this, true)
 
-    private var state:ProgressButtonState = ProgressButtonState.Normal
+    private var state: ProgressButtonState = ProgressButtonState.Normal
         set(value) {
             field = value
             refreshState()
@@ -85,8 +85,8 @@ class CustomProgressButton @JvmOverloads constructor(
     }
 
     sealed class ProgressButtonState(val isEnabled:Boolean, val progressVisibility:Int){
-        object Normal:ProgressButtonState(true, View.GONE)
-        object Loading:ProgressButtonState(false,View.VISIBLE)
+        object Normal: ProgressButtonState(true, View.GONE)
+        object Loading: ProgressButtonState(false,View.VISIBLE)
     }
 
 }

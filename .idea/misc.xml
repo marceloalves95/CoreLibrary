@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_content_save.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_delete.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_plus_white.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_refresh.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/drawable/ic_update.xml" value="0.1" />
         <entry key="..\:/Meus Arquivos/Meus Projetos/CoreLibrary/components/src/main/res/layout/progress_button.xml" value="0.20625" />
       </map>
     </option>

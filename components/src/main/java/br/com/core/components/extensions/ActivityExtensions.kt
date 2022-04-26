@@ -1,4 +1,4 @@
-package br.com.corelibrary.components.extensions
+package br.com.core.components.extensions
 
 import android.app.Activity
 import android.content.Intent

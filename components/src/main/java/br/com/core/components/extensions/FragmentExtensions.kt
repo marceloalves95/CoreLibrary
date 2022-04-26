@@ -1,4 +1,4 @@
-package br.com.corelibrary.components.extensions
+package br.com.core.components.extensions
 
 import android.widget.Toast
 import androidx.fragment.app.Fragment

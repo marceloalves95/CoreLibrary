@@ -1,10 +1,12 @@
-package br.com.corelibrary.components.extensions
+package br.com.core.components.extensions
 
 import android.app.Activity
 import android.os.SystemClock
 import android.view.LayoutInflater
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import androidx.core.view.isVisible
+import com.facebook.shimmer.ShimmerFrameLayout
 
 /**
  * @author RubioAlves
@@ -40,4 +42,13 @@ fun View.clickWithDebounce(debounceTime: Long = 600L, action: () -> Unit) {
 
 fun View.getLayoutContainer():LayoutInflater{
     return LayoutInflater.from(context)
+}
+
+fun ShimmerFrameLayout.shimmerVisible(isVisible:Boolean){
+    this.isVisible = isVisible
+    if (isVisible){
+        startShimmerAnimation()
+    }else{
+        stopShimmerAnimation()
+    }
 }
