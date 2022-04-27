@@ -3,7 +3,7 @@
 > *Esse projeto tem como objetivo centralizar muitos códigos que são usados em outros projetos.*
 
 #### Instalação
-Se você deseja executar essa library execute o arquivo **Makefile** ou digite os seguintes comandos no seu terminal:
+Depois de clonar esse projeto e se você deseja executar essa library execute o arquivo **Makefile** ou digite os seguintes comandos no seu terminal:
 
 ````groovy
 ./gradlew components:publishToMavenLocal
