@@ -15,6 +15,5 @@ gradlePlugin {
             id = "core-library-gradle-plugin"
             implementationClass = "CoreLibraryGradlePlugin"
         }
-
     }
 }

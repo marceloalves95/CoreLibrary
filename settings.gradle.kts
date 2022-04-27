@@ -1,6 +1,7 @@
 rootProject.name = "CoreLibrary"
 include(":components")
 include(":testing")
+include(":compose")
 
 pluginManagement {
     repositories {
@@ -11,3 +12,4 @@ pluginManagement {
 
 includeBuild("includedBuilds/build-configuration")
 includeBuild("includedBuilds/build-source")
+

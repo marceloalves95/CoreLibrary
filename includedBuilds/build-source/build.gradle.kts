@@ -24,5 +24,17 @@ gradlePlugin {
             id = "core-library-plugin"
             implementationClass = "CoreLibraryPlugin"
         }
+        register("components-library-plugin") {
+            id = "components-library-plugin"
+            implementationClass = "ComponentsPlugin"
+        }
+        register("testing-library-plugin") {
+            id = "testing-library-plugin"
+            implementationClass = "TestingPlugin"
+        }
+        register("compose-library-plugin") {
+            id = "compose-library-plugin"
+            implementationClass = "ComposePlugin"
+        }
     }
 }

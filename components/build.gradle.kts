@@ -1,7 +1,7 @@
 import extensions.mavenPublishLocal
 
 plugins {
-    id("core-library-plugin")
+    id("components-library-plugin")
     id("maven-publish")
 }
 
