@@ -1,0 +1,3 @@
+[submodule "CoreLibrary"]
+	path = CoreLibrary
+	url = https://github.com/marceloalves95/CoreLibrary.git
